@@ -1,0 +1,607 @@
+.mt-100 {
+    margin-top: 100px;
+}
+
+.bg {
+  background-image: url("hijau.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paragraf {
+  display: none;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  width: 100px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#cart-add-success {
+  display: none;
+}
+
+#delete-wishlist-success, #delete-wishlist-success-responsive {
+  display: none;
+}
+
+#add-wishlist-success, #add-wishlist-success-responsive {
+  display: none;
+}
+
+#add-cart-success, #add-cart-success-responsive {
+  display: none;
+}
+
+#alert-stok, #alert-stok-responsive {
+  display: none;
+}
+
+#sukses {
+  display: none;
+}
+
+#gagal {
+  display: none;
+}
+
+
+.sub-col {
+  background: transparent;
+  border: none;
+  -moz-appearance: textfield;
+}
+
+.sub-col::-webkit-outer-spin-button,
+.sub-col::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+   opacity: 1;
+}
+
+input[type=number]::-o-inner-spin-button, 
+input[type=number]::-o-outer-spin-button {  
+   opacity: 1;
+}
+
+.keterangan {
+  display: none;
+}
+
+.bg-light.card-body.co ul li {
+  margin-bottom: 10px; 
+  display: flex;
+  align-items: center;
+}
+
+#alamat {
+  background-image: none;
+}
+
+.alert-alamat {
+  display: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center; /* Pastikan elemen tetap di tengah */
+  align-items: center;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.text {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 8px;
+}
+.numbertext {
+  color: wheat;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* Styling untuk dot */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Dot yang aktif (terpilih) */
+/* .active {
+  background-color: #717171;
+} */
+
+.fade {
+  --webkit-animation-name: fade;
+  --webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
+  @-webkit-keyframes fade {
+      from{opacity: 0.6}
+      to{opacity: 1}
+  }
+  @keyframes fade {
+      from{opacity: 0.6}
+      to{opacity: 1}
+  }
+/* div[style="width:1rem; height:1rem; border-width:0.2em;"].spinner-border.text-success {
+  display: none;
+} */
+
+/* floating button */
+@-webkit-keyframes come-in {
+  0% {
+    -webkit-transform: translatey(100px);
+            transform: translatey(100px);
+    opacity: 0;
+  }
+  30% {
+    -webkit-transform: translateX(-50px) scale(0.4);
+            transform: translateX(-50px) scale(0.4);
+  }
+  70% {
+    -webkit-transform: translateX(0px) scale(1.2);
+            transform: translateX(0px) scale(1.2);
+  }
+  100% {
+    -webkit-transform: translatey(0px) scale(1);
+            transform: translatey(0px) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes come-in {
+  0% {
+    -webkit-transform: translatey(100px);
+            transform: translatey(100px);
+    opacity: 0;
+  }
+  30% {
+    -webkit-transform: translateX(-50px) scale(0.4);
+            transform: translateX(-50px) scale(0.4);
+  }
+  70% {
+    -webkit-transform: translateX(0px) scale(1.2);
+            transform: translateX(0px) scale(1.2);
+  }
+  100% {
+    -webkit-transform: translatey(0px) scale(1);
+            transform: translatey(0px) scale(1);
+    opacity: 1;
+  }
+}
+
+#floating-button-resp {
+  display: none !important;
+}
+
+.floating-container {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 100;
+  right: 0;
+  margin-bottom: 40px;
+  margin-right: 25px;
+}
+.floating-container:hover {
+  height: 300px;
+}
+.floating-container .floating-button {
+  opacity: 1; 
+  transition: opacity 1s; 
+}
+.floating-container:hover .floating-button {
+  opacity: 0;
+}
+
+.floating-container:hover .element-container .float-element:nth-child(1) {
+  -webkit-animation: come-in 0.4s forwards 0.2s;
+          animation: come-in 0.4s forwards 0.2s;
+          right: 30px;
+          animation-fill-mode: both;
+}
+.floating-container:hover .element-container .float-element:nth-child(2) {
+  -webkit-animation: come-in 0.4s forwards 0.4s;
+          animation: come-in 0.4s forwards 0.4s;
+          right: 30px;
+          animation-fill-mode: both;
+}
+.floating-container:hover .element-container .float-element:nth-child(3) {
+  -webkit-animation: come-in 0.4s forwards 0.6s;
+          animation: come-in 0.4s forwards 0.6s;
+          right: 30px;
+          animation-fill-mode: both;
+}
+.floating-container:hover .element-container .float-element:nth-child(4) {
+  -webkit-animation: come-in 0.4s forwards 0.8s;
+          animation: come-in 0.4s forwards 0.8s;
+          right: 30px;
+          animation-fill-mode: both;
+}
+.floating-container:hover .element-container .float-element:nth-child(5) {
+  -webkit-animation: come-in 0.4s forwards 0.10s;
+          animation: come-in 0.4s forwards 0.10s;
+          right: 30px;
+          animation-fill-mode: both;
+}
+.floating-container:hover .element-container .float-element:nth-child(6) {
+  -webkit-animation: come-in 0.4s forwards 0.12s;
+          animation: come-in 0.4s forwards 0.12s;
+          right: 30px;
+          animation-fill-mode: both;
+}
+.floating-container .floating-button {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background: #25D366;
+  margin-top: 320px;
+  bottom: 20;
+  border-radius: 50%;
+  left: 0;
+  right: 20;
+  color: white;
+  line-height: 65px;
+  text-align: center;
+  font-size: 23px;
+  z-index: 100;
+  box-shadow: 0 10px 25px -5px rgba(37, 211, 102, 0.6);
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.floating-container .float-element {
+  position: relative;
+  display: block;
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  margin: 15px auto;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  line-height: 50px;
+  z-index: 0;
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+.floating-container .float-element .material-icons {
+  vertical-align: middle;
+  font-size: 16px;
+}
+.floating-container .float-element:nth-child(1),
+.floating-container .float-element:nth-child(2),
+.floating-container .float-element:nth-child(3),
+.floating-container .float-element:nth-child(4),
+.floating-container .float-element:nth-child(5),
+.floating-container .float-element:nth-child(6) {
+  background: #25D366;
+  box-shadow: 0 20px 20px -10px rgba(37, 211, 102, 0.5);
+}
+
+#spinner {
+  display: none; /* Awalnya sembunyikan */
+}
+
+#dialog-confirm, .dialog-confirm, .konfirmasi-pengiriman, 
+.dialog-confirm-data-pembeli, .batal-pengiriman, .dialog-confirm-responsive,
+.dialog-confirm-data-pembeli-responsive {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  /* padding: 40px; */
+}
+
+.dialog-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.dialog-content-responsive {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width: 95%;
+  max-width: 95vw;
+  margin: auto;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+@media (min-width: 768px) {
+  .dialog-content {
+    padding: 30px;
+    max-width: 600px;
+  }
+}
+
+
+#variasi-dialog-confirm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+
+footer .accordion-body .accordion-button::after {
+  display: none;
+}
+
+footer .accordion-button {
+  font-weight: 600 !important;  
+}
+
+.dropdown-footer-header {
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.dropdown-footer-header:hover {
+  background-color: #f8f9fa;
+  color: #007bff;
+}
+.sub-header-indent {
+  margin-left: 20px; /* Mengatur indentasi */
+  font-weight: bold; /* (Opsional) membuat teks tebal */
+  font-size: 1rem; /* (Opsional) mengatur ukuran teks */
+}
+.sub-collapse-indent {
+  margin-left: 40px; /* Mengatur indentasi */
+  font-weight: bold; /* (Opsional) membuat teks tebal */
+  font-size: 1rem; /* (Opsional) mengatur ukuran teks */
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #2c3e50;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+  padding-top: 20px;
+}
+.sidebar.hide {
+  left: -250px;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 5vh;
+  margin-left: 2vh;
+}
+.sidebar ul li {
+  padding: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.sidebar ul li:hover {
+  background: #34495e;
+}
+.nav-admin {
+  width: 100%;
+  height: 60px;
+  background: #920700;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.content {
+  margin-left: 250px;
+  padding: 80px 20px;
+  transition: 0.3s;
+  width: 100%;
+}
+.content.full {
+  margin-left: 0;
+}
+.toggle-btn {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.mobile-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  z-index: 1000;
+}
+.mobile-nav a {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  flex-grow: 1;
+}
+.mobile-nav a i {
+  font-size: 20px;
+  display: block;
+}
+
+/* Sembunyikan navbar ini jika layar >= 992px */
+@media (min-width: 992px) {
+  .mobile-nav {
+      display: none;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .floating-container .floating-button {
+    margin-top: 370px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .floating-container .floating-button {
+    margin-top: 550px;
+  }
+}
+
+  @media (max-width: 591px) {
+    .keterangan {
+      display: block;
+    }
+
+    #cart-add, #delete-wishlist, #add-wishlist {
+      width: 150px;
+      height: 50px;
+    }
+  }
+
+  @media (max-width: 900px) {
+
+    .floating-container {
+      display: none;
+    }
+
+    #floating-button-resp {
+      display: flex !important;
+      position: fixed;
+      bottom: 100px;
+      right: 20px;
+      width: 65px;
+      height: 65px;
+      background: #25D366;
+      border-radius: 50%;
+      color: white;
+      line-height: 65px;
+      text-align: center;
+      font-size: 23px;
+      z-index: 100;
+      box-shadow: 0 10px 25px -5px rgba(37, 211, 102, 0.6);
+      cursor: pointer;
+    }
+
+    .wa-link {
+      display: flex;
+      position: relative;
+      border-radius: 10px;
+      background: #25D366;
+      color: white;
+      font-weight: 500;
+      height: 40px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+

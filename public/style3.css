@@ -1,0 +1,660 @@
+
+/* LOGIN PAGE */
+.two-columns-grid {
+  display: none !important;
+}
+
+#email:focus, #password:focus, #obscure-btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  overflow: auto !important;
+}
+
+.form-control {
+  width: 80% !important;
+}
+
+.desktop-produk.container {
+    display: none !important;
+}
+
+#img-produk {
+    display: none !important;
+}
+
+#img-produk-responsive {
+    display: block !important;
+}
+
+.col-xl-7 {
+    display: none !important;
+}
+
+.thumbnail-image {
+  display: none !important;
+}
+
+.thumbnail-image-responsive {
+      display: block !important;
+    }
+
+.produk-content-responsive {
+  display: block !important;
+}
+
+.login-logo {
+  max-width: 150px;
+  margin: 20px auto 20px;
+}
+
+.login-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.remember-forgot input {
+  margin-right: 5px;
+}
+
+.remember-forgot a {
+  color: #952e24;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-login {
+  background-color: #952e24;
+  color: white;
+  padding: 14px;
+  font-size: 1.2rem;
+  border: none;
+  width: 80%;
+  margin-bottom: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.atau {
+  margin: 10px 0;
+  color: #333;
+}
+
+.google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  border: 1px solid #ccc;
+  padding: 12px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.google-login img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.register {
+  margin-top: 25px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.register a {
+  color: #952e24;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .btn-login {
+    font-size: 1rem;
+  }
+  .google-login {
+    font-size: 1rem;
+  }
+}
+/* END LOGIN PAGE */
+
+/* DASHBOARD, ALAMAT, DLL */
+#dashboard-card {
+  display: none !important;
+}
+
+#dashboard-card-responsive {
+  display: block !important;
+}
+
+#alamat-card {
+  display: none !important;
+}
+/* END DASHBOARD, ALAMAT, DLL */
+
+ 
+  .footer {
+    background: #efefef;
+    padding: 16px;
+    padding-bottom: 150px;
+    color: #333;
+  }
+  
+  .brand img {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .brand p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 15px;
+    text-align: justify;
+  }
+  
+  .payments h4,
+  .shippings h4,
+  .store h4 {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .payment-logos img {
+    height: 30px;
+    margin: 5px 8px 5px 0;
+  }
+
+  .shipping-logos img,
+  .payment-logos img{
+    margin-top: 15px;
+  }
+  
+  .store-location {
+    margin: 10px 0;
+  }
+  
+  .store-location strong {
+    color: red;
+    font-size: 18px;
+  }
+  
+  .store-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .store-list li {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .footer-links {
+    margin-top: 16px;
+    padding-top: 12px;
+  }
+  
+  .footer-links div {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .footer-links span {
+    font-weight: 500;
+  }
+
+  .menu {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .menu-item {
+    border-bottom: 1px solid #444;
+    padding: 10px 0;
+  }
+  
+  .menu-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .menu-item.open .arrow {
+    transform: rotate(90deg);
+  }
+
+  .menu-item.close .arrow {
+    transform: rotate(-90deg);
+  }
+
+  .nav-item.open .plus {
+    transform: rotate(45deg);
+  }
+  
+  .submenu, .nav-submenu {
+    list-style: none;
+    padding-left: 20px;
+    margin: 10px 0 0;
+    display: none;
+  }
+  
+  .submenu li, .nav-submenu li {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid #aaa;
+    padding-top: 8px;
+  }
+
+  #data-pembeli-desktop {
+    display: none;
+  }
+
+  #menu-tambah-alamat {
+    display: none !important;
+  }
+
+  #nama-order-preview {
+    margin-left: 20px;
+  }
+
+  #alamat-order-preview {
+    margin-left: 77px;
+  }
+
+  #kecamatan-order-preview {
+    margin-left: 10px;
+  }
+
+  #telp-order-preview {
+    margin-left: 42px;
+  }
+
+  
+  /* Tablet (min-width: 768px) */
+@media (min-width: 768px) {
+  .desktop-produk.container {
+    display: flex !important;
+  }
+
+  .thumbnail-image {
+  display: block !important;
+}
+
+.thumbnail-image-responsive {
+      display: none !important;
+    }
+
+   .produk-content-responsive {
+  display: none !important;
+}
+
+.list-image-responsive {
+    display: none !important;
+  }
+
+#img-produk {
+    display: block !important;
+}
+
+#img-produk-responsive {
+  display: none !important;
+}
+
+.col-xl-7 {
+    display: block !important;
+}
+
+.col.container {
+  display: none !important;
+}
+
+  #dashboard-card {
+    display: flex !important;
+  }
+
+  #dashboard-card-responsive {
+    display: none !important;
+  }
+
+  #menu-tambah-alamat {
+    display: block !important;
+  }
+
+  #tambah-alamat {
+    margin-left: 3em;
+  }
+
+  .login-container {
+    display: none;
+  }
+
+    /* container */
+  .two-columns-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh; /* Pastikan grid mengisi seluruh layar */
+  }
+
+  /* columns */
+  .two-columns-grid > * {
+    padding:1rem;
+  }
+
+  .two-columns-grid > div:first-child {
+    min-height: 100vh;
+  }
+
+    .footer {
+      padding: 32px;
+    }
+  
+    .brand {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+  
+    .brand img {
+      max-width: 180px;
+    }
+  
+    .brand p {
+      font-size: 18px;
+      flex: 1;
+      text-align: justify;
+    }
+  
+    .payment-logos img,
+    .shipping-logos img {
+      height: 40px;
+    }
+  
+    .store-location p {
+      font-size: 15px;
+    }
+  
+    .store-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .store-list li {
+      font-weight: 600;
+      font-size: 15px;
+    }
+  
+    .footer-links {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  
+    .footer-links div {
+      width: 30%;
+      border: none;
+      padding: 10px 0;
+    }
+  
+    .footer-links div:not(:last-child) {
+      border-right: 1px solid #ccc;
+    }
+
+    .menu {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .menu-item {
+      border-bottom: 1px solid #444;
+      padding: 10px 0;
+      width: 400px;
+    }
+  
+    .copyright {
+      margin-top: 24px;
+      font-size: 18px;
+    }
+
+    #data-pembeli-mobile {
+      display: none;
+    }
+
+    #data-pembeli-desktop {
+      display: block;
+    }
+
+    #nama-order-preview {
+      margin-left: 200px;
+    }
+
+    #alamat-order-preview {
+      margin-left: 257px;
+    }
+
+    #kecamatan-order-preview {
+      margin-left: 58px;
+    }
+
+    #telp-order-preview {
+      margin-left: 221px;
+    }
+  }
+  
+  /* Desktop (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    .desktop-produk.container {
+      display: flex !important;
+    }
+
+    .thumbnail-image {
+      display: block !important;
+    }
+
+    .thumbnail-image-responsive {
+      display: none !important;
+    }
+
+    .produk-content-responsive {
+  display: none !important;
+}
+
+  .list-image-responsive {
+    display: none !important;
+  }
+
+    #img-produk {
+        display: block !important;
+    }
+
+    #img-produk-responsive {
+  display: none !important;
+}
+
+    .col-xl-7 {
+        display: block !important;
+    }
+
+    .col.container {
+  display: none !important;
+}
+
+    #dashboard-card {
+      display: flex !important;
+    }
+
+    #dashboard-card-responsive {
+      display: none !important;
+    }
+
+    #menu-tambah-alamat {
+      display: block !important;
+    }
+
+    #tambah-alamat {
+      margin-left: 3em;
+    }
+
+    .login-container {
+      display: none;
+    }
+
+    /* container */
+  .two-columns-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh; /* Pastikan grid mengisi seluruh layar */
+  }
+
+  /* columns */
+  .two-columns-grid > * {
+    padding:1rem;
+  }
+
+  .two-columns-grid > div:first-child {
+    min-height: 100vh;
+  }
+
+    .footer {
+      display: grid;
+      grid-template-columns: 3fr 1fr 1fr;
+      gap: 32px;
+    }
+
+    .info-section {
+      display: flex;
+      flex-direction: column;
+      gap: 24px; /* jarak antara pembayaran dan pengiriman */
+      padding-left: 100px;
+    }
+
+    .info-section-payment {
+      display: flex;
+      flex-direction: column;
+      gap: 24px; /* jarak antara pembayaran dan pengiriman */
+      padding-left: 100px;
+    }
+    
+    .payment-logos,
+    .shipping-logos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer .shippings {
+      display: block;
+    }
+  
+    .footer > div {
+      margin-bottom: 0;
+    }
+  
+    .brand {
+      flex-direction: column;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      width: auto;
+      padding-top: 0;
+    }
+  
+    .footer-links div {
+      width: 100%;
+      padding: 8px 0;
+      border: none;
+      border-bottom: 1px solid #ccc;
+    }
+  
+    .footer-links div:last-child {
+      border-bottom: none;
+    }
+  
+    .store-list {
+      flex-direction: column;
+      gap: 6px;
+    }
+  
+    .store h4 {
+      font-size: 18px;
+    }
+
+    .menu {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .menu-item {
+      border-bottom: 1px solid #444;
+      padding: 10px 0;
+      width: 350px;
+    }
+  
+    .copyright {
+      grid-column: span 3;
+      text-align: center;
+      font-size: 18px;
+      margin-top: 32px;
+    }
+
+    #data-pembeli-mobile {
+      display: none;
+    }
+
+    #data-pembeli-desktop {
+      display: block;
+    }
+
+    #nama-order-preview {
+      margin-left: 200px;
+    }
+
+    #alamat-order-preview {
+      margin-left: 257px;
+    }
+
+    #kecamatan-order-preview {
+      margin-left: 58px;
+    }
+
+    #telp-order-preview {
+      margin-left: 221px;
+    }
+  }
+  
